@@ -21,8 +21,8 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/populatedb", {
  });
 
 //  routes
- app.use(require("./routes/apiRoutes.js"));
- app.use(require("./routes/htmlRoutes.js"));
+//  app.use(require("./routes/apiRoutes.js"));
+ app.use(require("./routes/html-routes.js"));
  
 
 
