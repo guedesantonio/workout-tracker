@@ -1,7 +1,6 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-const path = require("path");
 
 const PORT = process.env.PORT || 4444;
 
@@ -21,8 +20,8 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/populatedb", {
  });
 
 //  routes
-//  app.use(require("./routes/apiRoutes.js"));
- app.use(require("./routes/html-routes.js"));
+ app.use(require("./routes/apiRoutes.js"));
+ app.use(require("./routes/htmlRoutes.js"));
  
 
 
