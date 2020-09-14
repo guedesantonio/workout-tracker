@@ -10,16 +10,16 @@ exercises: [{
   type: {
       type: String,
       trim: true,
-      require:true
+      required: "Enter an exercise type"
   },
   name: {
       type: String,
       trim: true,
-      require:true
+      required: "Enter exercise"
   },
   duration: {
       type: Number,
-      require:true
+      required: "Enter exercise time in minutes"
   },
   weight: {
       type: Number
@@ -33,8 +33,19 @@ exercises: [{
   distance: {
       type: Number
   }
-}]
-});
+}],
+ toJSON: {
+  // include any virtual properties when data is requested
+  virtuals: true
+}
+}
+);
+
+workoutSchema.virtual("totalDuration").get(function () {
+  return this.exercises.reduce((total, exercise) => {
+    return total + exercise.duration;
+}, 0);
+ })
 
 const Workout = mongoose.model("Workout", WorkoutSchema);
 

@@ -1,4 +1,4 @@
-# Burger APP
+# Workout Tracker
 
 ![NPM version](https://img.shields.io/badge/npm-6.14.7-green)
 ![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)
