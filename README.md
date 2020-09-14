@@ -20,31 +20,28 @@
   ## Installation
   
   This app is hosted on heroku. You can access the app by clicking [here](https://guedesantonio-workout-tracker.herokuapp.com/).
-
-
-  ## Usage
   
-## Usage
+  ## Usage
 
-After loading the initial page, the user should be given the option to create a new workout or, if there is previous saved workouts, continue with their last workout.
+  After loading the initial page, the user should be given the option to create a new workout or, if there is previous saved workouts, continue with their last workout.
 
-At the New Workout page the user should be able to:
+  At the New Workout page the user should be able to:
 
-- Add exercises to a previous workout plan.
+  - Add exercises to a previous workout plan.
 
-- Add new exercises to a new workout plan.
+  - Add new exercises to a new workout plan.
 
-![NewWorkout](./public/assets/newWorkout.png)
+  ![NewWorkout](./public/assets/newWorkout.png)
 
-At the Fitness Tracker Dashboard
+  At the Fitness Tracker Dashboard
 
-- View the combined weight of multiple exercises.
+  - View the combined weight of multiple exercises.
 
-- View the combined time of workouts per week day.
+  - View the combined time of workouts per week day.
 
-- View graphic information about every type of exercise and change view.
+  - View graphic information about every type of exercise and change view.
 
-![Dashboard](./public/assets/dashboard.png)
+  ![Dashboard](./public/assets/dashboard.png)
 
   ## License
   This project is licensed under the MIT.
