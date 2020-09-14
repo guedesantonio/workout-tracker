@@ -5,6 +5,8 @@
 
   ## Description
   An APP that keeps track of your daily workouts, done with Mongo databasem a Mongoose schema and handles routes with Express.
+
+  ![WorkoutTracker](./public/assets/workoutTracker.png)
   
   ## Table of contents
   
@@ -22,9 +24,27 @@
 
   ## Usage
   
-  The app has a list of pre-defined burgers in its database that are ready to be devoured. If you click on the devour button next to each item in that list, it will be moved to the list of devoured burgers on the right side of the page. You can also create new burgers by typing their names in the provided form on the page and clicking the submit button that will then add them to the list of burgers ready to be devoured on the left side of the page. 
+## Usage
 
-  ![BurgerApp](./public/assets/img/burger.app.png)
+After loading the initial page, the user should be given the option to create a new workout or, if there is previous saved workouts, continue with their last workout.
+
+At the New Workout page the user should be able to:
+
+- Add exercises to a previous workout plan.
+
+- Add new exercises to a new workout plan.
+
+![NewWorkout](./public/assets/newWorkout.png)
+
+At the Fitness Tracker Dashboard
+
+- View the combined weight of multiple exercises.
+
+- View the combined time of workouts per week day.
+
+- View graphic information about every type of exercise and change view.
+
+![Dashboard](./public/assets/dashboard.png)
 
   ## License
   This project is licensed under the MIT.
