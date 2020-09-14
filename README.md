@@ -19,7 +19,7 @@
 
   ## Installation
   
-  This app is hosted on heroku. You can access the app by clicking [here](https://git.heroku.com/guedesantonio-workout-tracker.git).
+  This app is hosted on heroku. You can access the app by clicking [here](https://guedesantonio-workout-tracker.herokuapp.com/).
 
 
   ## Usage
