@@ -19,7 +19,7 @@
 
   ## Installation
   
-  This app is hosted on heroku. You can access the app by clicking [here](https://peaceful-wave-27585.herokuapp.com/).
+  This app is hosted on heroku. You can access the app by clicking [here](https://git.heroku.com/guedesantonio-workout-tracker.git).
 
 
   ## Usage
